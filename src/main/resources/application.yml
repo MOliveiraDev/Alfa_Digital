@@ -1,7 +1,7 @@
 spring:
   datasource:
     url: ${DATABASE_URL}
-    username: ${DATABASE_USERNAME}
+    username: ${DATABASE_USER}
     password: ${DATABASE_PASSWORD}
   jpa:
     hibernate:
@@ -13,3 +13,5 @@ spring:
 
 supabase:
   bucket-url: ${SUPABASE_BUCKET_URL}
+  api-url: https://ozidmttuoymngufcnjsx.supabase.co
+  anon-key: ${SUPABASE_ANON_KEY}
