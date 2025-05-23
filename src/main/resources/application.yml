@@ -13,5 +13,5 @@ spring:
 
 supabase:
   bucket-url: ${SUPABASE_BUCKET_URL}
-  api-url: https://ozidmttuoymngufcnjsx.supabase.co
+  api-url: ${SUPABASE_URL}
   anon-key: ${SUPABASE_ANON_KEY}
