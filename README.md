@@ -1,7 +1,7 @@
 
 #  Back End do Aplicativo Alfabetização Digital (Projeto de Extensão)
 
-Bakc End desenvolvido com **Spring Boot** para **listar vídeos armazenados em um bucket público do Supabase**. A aplicação foi hospedada gratuitamente na **Koyeb**.
+Back End desenvolvido com **Spring Boot** para **listar vídeos armazenados em um bucket público do Supabase**. A aplicação foi hospedada gratuitamente na **Koyeb**.
 
 ---
 
