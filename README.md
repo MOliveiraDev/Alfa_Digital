@@ -39,7 +39,7 @@ Esses vídeos são armazenados no bucket **público** `videos` do Supabase.
 ---
 
 
-##  Requisição Get para retornar os videos
+##  body josn de resposta quando for fazer uma consulta para retornar os videos
 
 ```json
 [
@@ -55,7 +55,7 @@ Esses vídeos são armazenados no bucket **público** `videos` do Supabase.
   }
 ]
 ```
-##  Requisição Get para retornar os videos ou para editar 
+##  Requisição body json para importar os videos ou para editar 
 
 ```json
   {
