@@ -6,9 +6,9 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Data;
 
-@Entity
 @Data
 @Table(name = "videos_tb")
+@Entity
 public class VideosEntity {
 
     @Id
@@ -17,5 +17,5 @@ public class VideosEntity {
 
     private String title;
     private String description;
-    private String url;
+    private String filename;
 }

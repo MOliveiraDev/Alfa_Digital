@@ -12,7 +12,7 @@
 	<artifactId>ab_API</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ab_API</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Back End do aplicativo Alfabetização Digital</description>
 	<url/>
 	<licenses>
 		<license/>

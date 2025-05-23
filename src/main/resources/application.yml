@@ -1,11 +1,8 @@
-video:
-  folder-path: /srv
-
 spring:
   datasource:
-    url: ${SPRING_DATASOURCE_URL}
-    username: ${SPRING_DATASOURCE_USERNAME}
-    password: ${SPRING_DATASOURCE_PASSWORD}
+    url: jdbc:postgresql://db.ozidmttuoymngufcnjsx.supabase.co:5432/postgres
+    username: postgres
+    password: Joao2022%
   jpa:
     hibernate:
       ddl-auto: update
@@ -13,5 +10,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: true
-        use_sql_comments: true
+
+supabase:
+  bucket-url: https://ozidmttuoymngufcnjsx.supabase.co/storage/v1/object/public/videos//
