@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://db.ozidmttuoymngufcnjsx.supabase.co:5432/postgres
-    username: postgres
-    password: Joao2022%
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
@@ -12,4 +12,4 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
 supabase:
-  bucket-url: https://ozidmttuoymngufcnjsx.supabase.co/storage/v1/object/public/videos//
+  bucket-url: ${SUPABASE_BUCKET_URL}
