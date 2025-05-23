@@ -5,16 +5,16 @@ Bakc End desenvolvido com **Spring Boot** para **listar vídeos armazenados em u
 
 ---
 
-## ✅ Funcionalidades
+## Funcionalidades
 
-- 📦 Conecta a um bucket do Supabase Storage.
-- 📄 Lista vídeos públicos com nome e descrição.
-- 🌐 Disponibiliza os vídeos através de uma API REST.
-- 🚀 Deploy contínuo na **Koyeb**.
+-  Conecta a um bucket do Supabase Storage.
+-  Lista vídeos públicos com nome e descrição.
+-  Disponibiliza os vídeos através de uma API REST.
+-  Deploy contínuo na **Koyeb**.
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Java 21  
 - Spring Boot 3  
@@ -27,7 +27,7 @@ Bakc End desenvolvido com **Spring Boot** para **listar vídeos armazenados em u
 
 ---
 
-## 🧠 Como funciona
+## Fluxo
 
 A API conecta-se ao Supabase e retorna uma lista de vídeos com:
 - URL pública  
@@ -39,7 +39,7 @@ Esses vídeos são armazenados no bucket **público** `videos` do Supabase.
 ---
 
 
-## 🔁 Requisição Get 
+##  Requisição Get para retornar os videos
 
 ```json
 [
