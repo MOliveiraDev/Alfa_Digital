@@ -7,10 +7,10 @@ Bakc End desenvolvido com **Spring Boot** para **listar vídeos armazenados em u
 
 ## Funcionalidades
 
--  Conecta a um bucket do Supabase Storage.
+-  Importar os videos para o Supabase Storage.
+-  Editar titulo, descrição e videos importados.
 -  Lista vídeos públicos com nome e descrição.
 -  Disponibiliza os vídeos através de uma API REST.
--  Deploy contínuo na **Koyeb**.
 
 ---
 
@@ -46,12 +46,21 @@ Esses vídeos são armazenados no bucket **público** `videos` do Supabase.
   {
     "name": "video1.mp4",
     "description": "Demonstração do Produto",
-    "url": "https://ozidmttuoymngufcnjsx.supabase.co/storage/v1/object/public/videos/video1.mp4"
+    "url": "<DATABASE_URL>/video1.mp4"
   },
   {
     "name": "trailer.mp4",
     "description": "Trailer institucional",
-    "url": "https://ozidmttuoymngufcnjsx.supabase.co/storage/v1/object/public/videos/trailer.mp4"
+    "url": "<DATABASE_URL>/trailer.mp4"
   }
 ]
+```
+##  Requisição Get para retornar os videos ou para editar 
+
+```json
+  {
+    "title": "",
+    "description": "",
+    "filename": ""
+  }
 ```
