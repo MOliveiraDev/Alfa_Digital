@@ -65,4 +65,4 @@ Esses vídeos são armazenados no bucket **público** `videos` do Supabase.
   }
 ```
 
-[Visualizar o PDF](https://github.com/MOliveiraDev/Alfa_Digital/blob/main/Doc/Documenta%C3%A7%C3%A3o%20Back%20End%20do%20Projeto.pdf)
+ [Documentação Detalhada](https://github.com/MOliveiraDev/Alfa_Digital/blob/main/Doc/Documenta%C3%A7%C3%A3o%20Back%20End%20do%20Projeto.pdf)
