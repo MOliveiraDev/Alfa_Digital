@@ -19,11 +19,11 @@ Back End desenvolvido com **Spring Boot** para **listar vídeos armazenados em u
 - Java 21  
 - Spring Boot 3  
 - Spring Data JPA  
-- PostgreSQL (Supabase)  
-- Supabase Storage (público)  
-- Koyeb (deploy gratuito)  
+- PostgreSQL  
+- Supabase Storage 
+- Koyeb 
 - Maven  
-- Docker (opcional)
+- Docker 
 
 ---
 
